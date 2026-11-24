@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VLAN - Redes Virtuales</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+<header>
+    <h1>VLAN</h1>
+    <p>Virtual Local Area Network</p>
+</header>
+
+<nav>
+    <a href="inicio.html">Inicio</a>
+    <a href="VLAN.html">VLAN</a>
+    <a href="VPN.html">VPN</a>
+    <a href="CISCO.html">Biografía de Cisco</a>
+</nav>
+
+<div class="container">
+    <section>
+        <h2>¿Qué es una VLAN?</h2>
+        <p>
+            Una <strong>VLAN (Virtual Local Area Network)</strong> o Red de Área Local Virtual es una tecnología 
+            que permite segmentar una red física en múltiples redes lógicas independientes. Aunque los dispositivos 
+            estén conectados al mismo switch, pueden pertenecer a diferentes VLANs y no comunicarse entre sí de forma directa.
+        </p>
+
+        <h3>Características principales</h3>
+        <ul>
+            <li>Segmentación lógica de la red sin necesidad de hardware adicional</li>
+            <li>Mejora la seguridad al aislar el tráfico entre departamentos</li>
+            <li>Reduce el tamaño de los dominios de difusión (broadcast)</li>
+            <li>Facilita la administración de la red</li>
+            <li>Permite que usuarios de diferentes ubicaciones físicas pertenezcan a la misma red lógica</li>
+        </ul>
+
+        <div class="highlight">
+            <strong>Ejemplo práctico:</strong> En una empresa, el departamento de Finanzas puede estar en la VLAN 10, 
+            Recursos Humanos en la VLAN 20 y el área de IT en la VLAN 30. Aunque todos usen el mismo switch, 
+            el tráfico de cada departamento permanece aislado.
+        </div>
+
+        <h3>Tipos de VLAN</h3>
+        <ul>
+            <li><strong>VLAN de datos:</strong> Transporte de tráfico de usuarios</li>
+            <li><strong>VLAN de voz:</strong> Especializada en tráfico de telefonía IP</li>
+            <li><strong>VLAN de gestión:</strong> Para administrar switches y routers</li>
+            <li><strong>VLAN nativa:</strong> VLAN por defecto (normalmente la VLAN 1)</li>
+        </ul>
+
+        <h3>Ventajas de usar VLANs</h3>
+        <ul>
+            <li>Mayor seguridad</li>
+            <li>Mejor rendimiento de la red</li>
+            <li>Flexibilidad en la administración</li>
+            <li>Reducción de costos (menos switches físicos necesarios)</li>
+        </ul>
+    </section>
+</div>
+
+<footer>
+    <p>Página educativa sobre VLAN</p>
+</footer>
+
+</body>
+</html>
